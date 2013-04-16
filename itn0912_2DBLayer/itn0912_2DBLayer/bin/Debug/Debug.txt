@@ -1,0 +1,215 @@
+
+Log Entry : 
+19:13:46 24. november 2012
+Error Message: 
+Method: getKategoriByID
+catch Exeption e
+-----------------------------------------------------------
+
+Log Entry : 
+19:14:48 24. november 2012
+Error Message: 
+Method: getKategoriByID
+catch Exeption eIs user logged in to DB or has connection to SQL?
+-----------------------------------------------------------
+
+Log Entry : 
+19:15:17 24. november 2012
+Error Message: 
+Method: getKategoriByID
+catch Exeption e
+ Is user logged in to DB or has connection to SQL?
+-----------------------------------------------------------
+
+Log Entry : 
+19:16:00 24. november 2012
+Error Message: 
+Method: getKategoriByID
+catch Exeption e
+Is user logged in to DB or has connection to SQL?
+-----------------------------------------------------------
+
+Log Entry : 
+19:30:53 24. november 2012
+Error Message: 
+Metod: addKategori
+catch Exeption e
+Is user logged in to DB or has connection to SQL?
+-----------------------------------------------------------
+
+Log Entry : 
+19:40:35 24. november 2012
+Error Message: 
+Method: ProductDB.getProductByDesc
+catch Exeption e
+Is user logged in to DB or connected to DB?System.InvalidOperationException: ExecuteReader kræver en åben og tilgængelig Connection. Forbindelsens aktuelle tilstand er lukket.
+   ved System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader()
+   ved itn0912_2DBLayer.Controller.ProductDB.getProductByDesc(String str) i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\ProductDB.cs:linje 25
+-----------------------------------------------------------
+
+Log Entry : 
+19:43:53 24. november 2012
+Error Message: 
+Method: ProductDB.getProductByDesc
+catch Exeption e
+Is user logged in to DB or connected to DB?
+System.InvalidOperationException: ExecuteReader kræver en åben og tilgængelig Connection. Forbindelsens aktuelle tilstand er lukket.
+   ved System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader()
+   ved itn0912_2DBLayer.Controller.ProductDB.getProductByDesc(String str) i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\ProductDB.cs:linje 25
+-----------------------------------------------------------
+
+Log Entry : 
+13:34:42 26. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption e
+Is user logged in to DB or connected to DB?
+System.IndexOutOfRangeException: bvarenummer
+   ved System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   ved System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   ved System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 32
+-----------------------------------------------------------
+
+Log Entry : 
+13:40:11 26. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption e
+Is user logged in to DB or connected to DB?
+System.IndexOutOfRangeException: bvarenummer
+   ved System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   ved System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   ved System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 32
+-----------------------------------------------------------
+
+Log Entry : 
+13:40:25 26. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption e
+Is user logged in to DB or connected to DB?
+System.IndexOutOfRangeException: bvarenummer
+   ved System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   ved System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   ved System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 32
+-----------------------------------------------------------
+
+Log Entry : 
+09:38:21 30. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption sqlE 
+Is SQL syntax OK?
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Stock'.
+   ved System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   ved System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   ved System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   ved System.Data.SqlClient.SqlDataReader.get_MetaData()
+   ved System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader()
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 27
+ClientConnectionId:2f754176-40fa-4a5c-a146-f37daedf09c3
+-----------------------------------------------------------
+
+Log Entry : 
+09:41:35 30. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption sqlE 
+Is SQL syntax OK?
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Stock'.
+   ved System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   ved System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   ved System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   ved System.Data.SqlClient.SqlDataReader.get_MetaData()
+   ved System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader()
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 27
+ClientConnectionId:637781aa-4756-4338-8c34-3c524c7097d4
+-----------------------------------------------------------
+
+Log Entry : 
+09:43:35 30. november 2012
+Error Message: 
+Method: StockDB.getStockByMin
+catch Exeption sqlE 
+Is SQL syntax OK?
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Stock'.
+   ved System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   ved System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   ved System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   ved System.Data.SqlClient.SqlDataReader.get_MetaData()
+   ved System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   ved System.Data.SqlClient.SqlCommand.ExecuteReader()
+   ved itn0912_2DBLayer.Controller.StockDB.getStockByMin() i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\StockDB.cs:linje 27
+ClientConnectionId:121fa6c7-3b9f-45f2-bb7f-de4a5b55f28e
+-----------------------------------------------------------
+
+Log Entry : 
+10:53:51 30. november 2012
+Error Message: 
+Method: Kategori.addKategori
+catch Exeption sqlE
+Is SQL Syntax OK?
+System.Data.SqlClient.SqlException (0x80131904): Column name or number of supplied values does not match table definition.
+   ved System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   ved System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   ved System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   ved System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout)
+   ved System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   ved System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   ved itn0912_2DBLayer.Controller.KategoriDB.addKategori(Kategori kategori) i c:\C#\itn0912_2DBLayer\itn0912_2DBLayer\Controller\KategoriDB.cs:linje 106
+ClientConnectionId:445974c5-4c7e-4e0b-b732-3b9065b383e5
+-----------------------------------------------------------
+
+Log Entry : 
+14:57:00 6. december 2012
+Error Message: 
+Method: ViewSe_Sales.getViewSe_Sales
+catch Exeption e
+Is user logged in to DB or connected to DB?
+System.InvalidOperationException: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at itn0912_2DBLayer.Controller.ViewSe_SalesDB.getViewSe_Sales() in c:\okok\itn0912_2DBLayer\itn0912_2DBLayer\Controller\ViewSe_SalesDB.cs:line 29
+-----------------------------------------------------------
+
+Log Entry : 
+14:57:00 6. december 2012
+Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at itn0912_2DBLayer.Program.Main(String[] args) in c:\okok\itn0912_2DBLayer\itn0912_2DBLayer\Program.cs:line 127
+-----------------------------------------------------------

@@ -1,0 +1,11 @@
+c:\Auth\Auth\Auth\bin\Debug\Auth.exe.config
+c:\Auth\Auth\Auth\bin\Debug\Auth.exe
+c:\Auth\Auth\Auth\bin\Debug\Auth.pdb
+c:\Auth\Auth\Auth\obj\Debug\Auth.csprojResolveAssemblyReference.cache
+c:\Auth\Auth\Auth\obj\Debug\Auth.exe
+c:\Auth\Auth\Auth\obj\Debug\Auth.pdb
+C:\App_testing\Auth\Auth\bin\Debug\Auth.exe.config
+C:\App_testing\Auth\Auth\bin\Debug\Auth.exe
+C:\App_testing\Auth\Auth\bin\Debug\Auth.pdb
+C:\App_testing\Auth\Auth\obj\Debug\Auth.exe
+C:\App_testing\Auth\Auth\obj\Debug\Auth.pdb
