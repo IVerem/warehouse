@@ -18,7 +18,6 @@ namespace itn0912_2DBLayer.DBLayer
         public static readonly SqlConnection dbconn = new SqlConnection(connectingString);
 
         private static SqlCommand dbCmd;
-        //private static SqlCommand command = null;
 
         private static void Open()
         {
