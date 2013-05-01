@@ -15,8 +15,6 @@ namespace itn0912_2DBLayer.DBLayer
     {
 
         public static readonly string connectingString = @"Data Source=W-SQL\SQLEXPRESS;Initial Catalog=Warehouse;Integrated Security=True";
-        //public static readonly string connectingString = @"Server=balder.ucn.dk;Database=itn0912_2;User id=itn0912_2;Password=IsAllowed;";
-        //public static readonly string connectingString = @"Data Source=Koen-win7\SQLEXPRESS;Initial Catalog=Warehouse;Integrated Security=True";
         public static readonly SqlConnection dbconn = new SqlConnection(connectingString);
 
         private static SqlCommand dbCmd;
